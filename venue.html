@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <a class="logo">uTube Conference</a>
+
+        <ul>
+            <li class="nav-item">
+                <a class="nav-btn" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-btn" href="speakers.html"> Speakers</a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-btn" href="venue.html"> Venue</a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-btn" href="register.html"> Register</a>
+
+            </li>
+        </ul>
+
+
+    </header>
+    <section class="speakers-first-sec">
+        <h1 class="speakers-first-sec-heading">Venue</h1>
+        <p class="speakers-first-sec-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum modi ipsam
+            quibusdam, doloribus quam ullam quas nisi quidem asperiores numquam?</p>
+    </section>
+    <div class="address-grid">
+        <div class="address-sec">
+            <h2>
+                Jio Garden
+            </h2>
+            <address>Plot No: RG1A,<br> G Block BKC, Bandra East,<br> Mumbai, Maharashtra 400051</address>
+            <br>
+            
+        </div>
+        <div id="googleMap" class="map" style="width: 600px;height:200px;"></div>
+    
+            <script>
+                function myMap() {
+                    var mapProp = {
+                        center: new google.maps.LatLng(51.508742, -0.120850),
+                        zoom: 5,
+                    };
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                }
+            </script>
+    
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    </div>
+    
+    <footer>
+        <p class="footer-txt">Created By Prabal Sharma</p>
+    </footer>
+</body>
+
+</html>
