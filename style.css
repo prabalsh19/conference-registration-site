@@ -34,6 +34,8 @@ header {
 }
 
 footer{
+    
+  
     height: 15vh;
     background-color:#2f2fa2 ;
     margin-top: 5rem;
@@ -187,4 +189,49 @@ border: solid black 2px;
 .map{
     margin-top: 7rem;
     margin-right: 3rem;
+}
+
+.register-para{
+    display: inline;
+    color: gray;
+    
+    font-size: 1.1rem;
+    margin: 2rem 5rem;
+    margin-right: 0;
+}
+.register-para h1{
+    margin: 0;
+}
+
+.register-para ul{
+    margin: 0;
+    float: left;
+    
+}
+
+.form{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    display: inline;
+    color: black;
+}
+
+input{
+    padding: .5rem;
+    margin: .5rem 0;
+}
+
+.purchase-btn{
+    position: relative;
+    top: 1rem;
+    padding: 0.5rem;
+    background: #2f2fa2;
+}
+
+.register-sec{
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    
 }
