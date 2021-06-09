@@ -2,13 +2,16 @@
 body {
     margin: 0;
     font-size: 1.3rem;
-   
+   color: white;
     font-family: 'Montserrat';
+}
+h1,h5{
+    margin: 0;
 }
 h2{
     margin: 1rem 0;
 }
-h3,p{
+h3{
     color: white;
 }
 ul {
@@ -22,10 +25,11 @@ a{
     
 }
 
+
 header {
     color: white;
     background-color: #2f2fa2;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     padding-top: 1rem;
 }
 
@@ -60,7 +64,7 @@ footer{
 
 .header-heading{
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 .header-para{
@@ -77,6 +81,7 @@ footer{
     padding: 1rem ;
     margin: auto; 
     font-weight: bold;  
+    margin-bottom: 5rem;
 }
 .header-btn:hover{
     background-color: white;
@@ -102,12 +107,10 @@ footer{
     height: 100%;
 }
 .card:hover{
-border: solid #553d67 3px;
+border: solid black 2px;
 }
 
-.card-container a{
-    color: black;
-}
+
 
 .card-img{
     width: 90%;
@@ -115,6 +118,51 @@ border: solid #553d67 3px;
 }
 
 .footer-txt{
+    font-style:oblique ;
     text-align: center;
     padding-top: 2.5rem;
+}
+
+
+.speakers-first-sec{
+    height: 10rem;
+    width: 100%;
+    background-color: #f64c72;
+
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+   
+}
+
+.speakers-first-sec-heading{
+    font-size: 2.5rem;
+    margin-top: -1rem;
+    
+}
+
+.speakers-first-sec-p{
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+   
+}
+
+.speakers-sec{
+   margin-top: 2rem;
+    color: black;
+    
+}
+
+.speakers-content{
+    width: 50%;
+    display: inline-block;
+    margin: 1rem 10%;
+}
+
+.speaker-img{
+    width: 25%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10rem;
 }
