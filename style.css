@@ -163,8 +163,8 @@ border: solid black 2px;
 }
 
 .speaker-img{
-    width: 25%;
-    border-radius: 50%;
+    width: 15%;
+    border-radius: 100%;
     position: relative;
     bottom: 10rem;
 }
